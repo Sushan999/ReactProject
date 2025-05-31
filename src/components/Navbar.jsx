@@ -25,10 +25,13 @@ const Navbar = () => {
           <a href="#About" className=" cursor-pointer hover:text-gray-300">
             About
           </a>
-          <a href="#" className=" cursor-pointer hover:text-gray-300">
+          <a href="#Projects" className=" cursor-pointer hover:text-gray-300">
             Projects
           </a>
-          <a href="#" className=" cursor-pointer hover:text-gray-300">
+          <a
+            href="#Testimonials"
+            className=" cursor-pointer hover:text-gray-300"
+          >
             Testimonials
           </a>
         </ul>
@@ -78,7 +81,8 @@ const Navbar = () => {
           </a>
           <a
             href="#Testimonials"
-            className="px-4 py-2 rounded-full inline-block onClick={() => setShowMobileMenu(false)}"
+            className="px-4 py-2 rounded-full inline-block"
+            onClick={() => setShowMobileMenu(false)}
           >
             Testimonials
           </a>
